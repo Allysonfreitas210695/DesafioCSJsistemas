@@ -17,7 +17,7 @@ export class GetAllLocalReciclagem {
           ${findAll[i].cidade ? `,${findAll[i].cidade}` : ""}
           ${findAll[i].cep ? `,${findAll[i].cep}` : ""}
         `
-        const localizacao = await axios.get(`https://maps.googleapis.com/maps/api/geocode/json?address=${endereco}&key=AIzaSyAVZ36UMU7fLEF4iiNmVKWDNnyfoU6YGXM`) 
+        const localizacao = await axios.get(`coloque sua KEY`) 
         
         const { data } = localizacao;
         const { lat, lng } = data.results[0].geometry.location;
