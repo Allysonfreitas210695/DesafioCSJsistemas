@@ -29,7 +29,7 @@ app.listen(POST_URL, async () => {
     // create database fake
     setTimeout(() => {
       createBDFAKE()
-    }, 2000)
+    }, 2000);
 
     console.log("listening on port http://localhost:" + POST_URL);
   } catch (error) {

@@ -17,7 +17,7 @@ export class GetAllLocalReciclagem {
           ${findAll[i].cidade ? `,${findAll[i].cidade}` : ""}
           ${findAll[i].cep ? `,${findAll[i].cep}` : ""}
         `
-        const localizacao = await axios.get(`coloque sua KEY`) 
+        const localizacao = await axios.get(`color sua chave aqui KEY`) 
         
         const { data } = localizacao;
         const { lat, lng } = data.results[0].geometry.location;
